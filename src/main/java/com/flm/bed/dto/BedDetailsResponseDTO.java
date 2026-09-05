@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class BedDetailsResponseDTO {
 	
-        private long bedNumber;
+    private long bedNumber;
 	
 	private long roomNumber;
 	
