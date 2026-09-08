@@ -5,6 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.flm.bed.model.BedAssignmentHistory;
 @Repository
-public interface BedAssignmentHistoryRepository extends JpaRepository<BedAssignmentHistory, >{
+public interface BedAssignmentHistoryRepository extends JpaRepository<BedAssignmentHistory, Long>{
 
 }
