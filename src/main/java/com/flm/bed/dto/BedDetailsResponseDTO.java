@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor 
 @NoArgsConstructor
-@Builder 
+
 public class BedDetailsResponseDTO {
 	
     private long bedNumber;
