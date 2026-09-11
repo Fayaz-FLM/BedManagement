@@ -40,4 +40,10 @@ public class Room {
 		this.roomCapacity = roomCapacity;
 		this.beds = beds;
 	 }
+	 public Room(String roomType, long roomCapacity) {
+		super();
+		this.roomType = roomType;
+		this.roomCapacity = roomCapacity;
+		
+	 }
 }
