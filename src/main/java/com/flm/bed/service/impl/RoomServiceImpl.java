@@ -40,7 +40,7 @@ public class RoomServiceImpl implements RoomService{
         }
         
         Room savedRoom = roomRepository.save(room);
-         return new ResponseEntity<>(
+        return new ResponseEntity<>(
         RoomDTOBuilder.buildRoomResponseDTOFromRoom(savedRoom),
         HttpStatus.CREATED
 );
