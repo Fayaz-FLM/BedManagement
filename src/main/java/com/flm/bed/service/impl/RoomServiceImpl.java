@@ -1,4 +1,4 @@
-package com.flm.bed.service;
+package com.flm.bed.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +15,7 @@ import com.flm.bed.dto.BedRequestDTO;
 import com.flm.bed.dto.RoomRequestDTO;
 import com.flm.bed.model.Bed;
 import com.flm.bed.model.Room;
+import com.flm.bed.service.RoomService;
 
 @Service 
 public class RoomServiceImpl implements RoomService{
